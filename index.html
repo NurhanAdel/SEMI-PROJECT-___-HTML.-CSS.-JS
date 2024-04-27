@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>CALCULATOR</title>
+</head>
+
+<body class="main-background">
+
+    <section class="container">
+
+        <div class="parent">
+            <div class="sidebar">
+                <h1 class="text1">calcu <span> lator</span></h1>
+                <br>
+                <h3 class="text2">_ A Quick Info ... |</h3>
+                <h4 class="text3">invention of Calculato: <span class="text4">Blaise Pascal </span></h4>
+                <ul class="text5">
+                    <li>A French Mathematician and Physicist, Blaise Pascal invented mechanical calculators in 1642 , It
+                        was called Pascaline also called Arithmetic Machine</li>
+                    <br><br>
+                    <li>the most successful Calculator is the Arithmometer in 1820 which is invented by Charles Xavier
+                        Thomas de Colmar of France based on Leibniz’s technology, with more advanced features. It was
+                        launched in 1851 and this is the only type of Mechanical calculator used up to world war 1. It
+                        was extremely popular and sold for 90 Years.</li>
+                </ul>
+                <br> <br>
+                <h5 class="text6">let's calculate anything :)</h5>
+            </div>
+
+            <div class="content">
+
+                <div class="calculator-border">
+                    <input id="display" readonly>
+                    <div onclick="viewInDisplay('1')" class="item-2">1</div>
+                    <div onclick="viewInDisplay('2')" class="item-3">2</div>
+                    <div onclick="viewInDisplay('3')" class="item-4">3</div>
+                    <div onclick="viewInDisplay('+')" class="item-5">+</div>
+                    <div onclick="viewInDisplay('4')" class="item-6">4</div>
+                    <div onclick="viewInDisplay('5')" class="item-7">5</div>
+                    <div onclick="viewInDisplay('6')" class="item-8">6</div>
+                    <div onclick="viewInDisplay('-')" class="item-9">-</div>
+                    <div onclick="viewInDisplay('7')" class="item-10">7</div>
+                    <div onclick="viewInDisplay('8')" class="item-11">8</div>
+                    <div onclick="viewInDisplay('9')" class="item-12">9</div>
+                    <div onclick="viewInDisplay('*')" class="item-13">*</div>
+                    <div onclick="viewInDisplay('0')" class="item-14">0</div>
+                    <div onclick="viewInDisplay('.')" class="item-15">.</div>
+                    <div onclick="viewInDisplay('/')" class="item-16">/</div>
+                    <div onclick="clearDisplay()" class="item-17">AC</div>
+                    <div onclick="calculate()" class="item-19">=</div>
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+    
+    <script src="main.js"></script>
+</body>
+
+</html>
